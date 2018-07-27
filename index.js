@@ -2,5 +2,5 @@
 const drivers=[];
 
 function findMatching(drivers,name){
-  return drivers.filter(function (drv){return (drv===name);});
+  return drivers.filter(function (drv){return (drv.toUpperCase()===name.toUpperCase());});
 }

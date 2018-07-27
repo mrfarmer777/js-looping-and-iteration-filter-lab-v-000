@@ -10,3 +10,5 @@ function fuzzyMatch(drivers,letters){
     return (drv.slice(0,letters.length)===letters);
   });
 }
+
+function matchName(drivers, name)

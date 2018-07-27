@@ -1,7 +1,6 @@
 // Code your solution in this file
-
-console.log(drivers);
+drivers=["Larry","Moe","Curly","Shemp","Joe"];
 
 function findMatching(name){
-  drivers.filter(driver.name===name);
+  drivers.filter(function (drv){drv===name});
 }

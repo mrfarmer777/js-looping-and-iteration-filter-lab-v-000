@@ -2,5 +2,5 @@
 drivers=["Larry","Moe","Curly","Shemp","Joe"];
 
 function findMatching(name){
-  drivers.filter(function (drv){return (drv===name);});
+  return drivers.filter(function (drv){return (drv===name);});
 }
